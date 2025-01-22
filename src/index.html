@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+</head>
+<body style="background-color: black;">
+    <script type="module" src="./js/init.js"></script>
+    <div class="main">
+        <div class="game-content">
+            <ul>
+                <li>
+                    <ul class="users-h">
+                        <li>
+                            <div class="player">
+                                <button class="seat-button" id="s0">
+                                    seat
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="player">
+                                <button class="seat-button" id="s1">
+                                    seat
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="player">
+                                <button class="seat-button" id="s2">
+                                    seat
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="users-with-table">
+                        <li class="users-v">
+                            <ul>
+                                <li>
+                                    <div class="player">
+                                        <button class="seat-button" id="s9">
+                                            seat
+                                        </button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="player">
+                                        <button class="seat-button" id="s8">
+                                            seat
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="table">
+                            <div class="game-board" id="game-board">
+                                <div class="game-piece" id="et1" style="position: absolute; top: 374px; left: 362px;"></div>
+                                <div class="game-piece" id="et2" style="position: absolute; top: 374px; left: 428px;"></div>
+                                <div class="game-piece" id="et3" style="position: absolute; top: 374px; left: 494px;"></div>
+                                <div class="game-piece" id="et4" style="position: absolute; top: 374px; left: 561px;"></div>
+                                
+                                <div class="board-obj-e" id="event1" style="position: absolute; top: 66px; left: 181px;"></div>
+                                <div class="board-obj-e" id="event2" style="position: absolute; top: 66px; left: 279px;"></div>
+                                <div class="board-obj-e" id="event3" style="position: absolute; top: 66px; left: 377px;"></div>
+                                <div class="board-obj-e" id="event4" style="position: absolute; top: 66px; left: 475px;"></div>
+                                <div class="board-obj-e" id="event5" style="position: absolute; top: 66px; left: 573px;"></div>
+
+                                <div class="board-obj-fa" id="fa1" style="position: absolute; top: 49px; left: 181px;"></div>
+                                <div class="board-obj-fa" id="fa2" style="position: absolute; top: 49px; left: 279px;"></div>
+                                <div class="board-obj-fa" id="fa3" style="position: absolute; top: 49px; left: 377px;"></div>
+                                <div class="board-obj-fa" id="fa4" style="position: absolute; top: 49px; left: 475px;"></div>
+                                <div class="board-obj-fa" id="fa5" style="position: absolute; top: 49px; left: 573px;"></div>
+                                <div class="board-obj-fa" id="fa6" style="position: absolute; top: 49px; left: 671px;"></div>
+
+                                <div class="board-obj-la" id="la1" style="position: absolute; top: 233px; left: 229px;"></div>
+                                <div class="board-obj-la" id="la2" style="position: absolute; top: 233px; left: 327px;"></div>
+                                <div class="board-obj-la" id="la3" style="position: absolute; top: 233px; left: 425px;"></div>
+                                <div class="board-obj-la" id="la4" style="position: absolute; top: 233px; left: 523px;"></div>
+                                <div class="board-obj-la" id="la5" style="position: absolute; top: 233px; left: 621px;"></div>
+
+                                <div class="board-obj-pile" id="la4" style="position: absolute; top: 233px; left: 16px;"></div>
+                                <div class="board-obj-pile" id="la5" style="position: absolute; top: 233px; left: 838px;"></div>
+                            </div>
+                        </li>
+                        <li class="users-v">
+                            <ul>
+                                <li>
+                                    <div class="player">
+                                        <button class="seat-button" id="s3">
+                                            seat
+                                        </button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="player">
+                                        <button class="seat-button" id="s4">
+                                            seat
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="users-h">
+                        <li>
+                            <div class="player">
+                                <button class="seat-button" id="s7">
+                                    seat
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="player">
+                                <button class="seat-button" id="s6">
+                                    seat
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="player">
+                                <button class="seat-button"id="s5">
+                                    seat
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+    "Game": {
+        "Id": "d9972dcd-e7bd-4d31-9aa7-5bfc356b1d2a",
+        "Players": [],
+        "DrawPile": [],
+        "DiscardPile": [],
+        "Parties": [],
+        "CurrentPresident": null,
+        "PreviousPresident": null,
+        "CurrentChancellor": null,
+        "PreviousChancellor": null,
+        "ElectionTracker": 0,
+        "Round": 0,
+        "GameType": 0
+    },
+    "Name": "lolkek",
+    "Users": [
+        {
+            "Id": "cf9fc21c-f8cb-45d5-b96c-bf0171f1fe1e",
+            "IsAdmin": true,
+            "IsPlayer": true,
+            "Player": {
+                "Id": "212c7b7f-5551-42fb-924a-7c5be7f38474",
+                "Username": "",
+                "Party": null,
+                "IsConfirmedAsNoHitler": false,
+                "IsAlive": true,
+                "IsHitler": false
+            },
+            "Username": "null",
+            "Index": 0,
+            "LobbyName": "lolkek",
+            "ConnectionIds": [
+                "HGGGpPgcjKrFsUcT4u1jnQ"
+            ]
+        },
+        {
+            "Id": "18459708-2172-49e9-b31a-73a30386f2ce",
+            "IsAdmin": false,
+            "IsPlayer": true,
+            "Player": {
+                "Id": "8e7a2d51-e9c5-41ff-88c5-d783a33852ba",
+                "Username": "",
+                "Party": null,
+                "IsConfirmedAsNoHitler": false,
+                "IsAlive": true,
+                "IsHitler": false
+            },
+            "Username": "null",
+            "Index": 3,
+            "LobbyName": "lolkek",
+            "ConnectionIds": [
+                "baA9LIooWFvl2bzVd5hYQA"
+            ]
+        },
+        {
+            "Id": "ad33a0cd-095d-4802-9434-55d700d86afc",
+            "IsAdmin": false,
+            "IsPlayer": false,
+            "Player": {
+                "Id": "a6bd08c5-84a5-4fd3-9138-27866296ba5e",
+                "Username": "",
+                "Party": null,
+                "IsConfirmedAsNoHitler": false,
+                "IsAlive": true,
+                "IsHitler": false
+            },
+            "Username": "null",
+            "Index": 0,
+            "LobbyName": "lolkek",
+            "ConnectionIds": [
+                "FlYdmkHrauptaMsaH5YW9Q"
+            ]
+        }
+    ]
+}
